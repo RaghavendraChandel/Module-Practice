@@ -10,15 +10,3 @@ Managing dependencies
 Collecting outputs from child modules
 Executing terraform plan and terraform apply
 
-
-Typical Parent Module Structure
-Terraform_Project/
-│
-├── main.tf
-├── provider.tf
-├── backend.tf
-├── variables.tf
-├── terraform.tfvars
-├── outputs.tf
-│
-└── modules/
