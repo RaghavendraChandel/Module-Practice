@@ -23,3 +23,10 @@ subnet-child  = var.subnet
 depends_on = [ module.virtual-net ]
   
 }
+
+module "subnet" {
+source = "../child_module/subnet"
+subnet-child  = var.subnet
+depends_on = [ module.virtual-net ]
+  
+}
